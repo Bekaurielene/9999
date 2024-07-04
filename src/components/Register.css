@@ -1,0 +1,27 @@
+/* MainBlog.css */
+.main-blog {
+  position: relative;
+  min-height: 100vh;
+}
+
+.background-container {
+  background-size: cover;
+  background-position: center;
+  height: 50vh;
+  position: relative;
+}
+
+.overlay {
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.container {
+  margin-top: -50px; 
+  
+}
